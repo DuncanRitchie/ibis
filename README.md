@@ -1,4 +1,12 @@
-# 
+# My Index of Birds I’ve Sensed (Ibis)
+https://www.duncanritchie.co.uk/ibis
+
+My Ibis is a list of all the avian species I’ve seen or heard in the wild, in Britain, up to 2012.
+
+It’s currently a single webpage with no interactivity, but I might add more features in the future.
+So this is an [Astro](https://astro.build/) project rather than a simple HTML document.
+
+Birds from after 2012 or from outside the UK are also listed on the page, though I’ve not integrated them into the main list.
 
 ## Astro commands
 
