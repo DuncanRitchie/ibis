@@ -1,0 +1,31 @@
+---
+interface Image {
+	src: string
+	aspectRatio: string
+}
+
+export interface Props {
+	name: string
+	scientific: string
+	date?: Date
+	images?: Image[]
+}
+
+const { name, scientific, date, images } = Astro.props
+---
+
+<li>
+	{name}, <i>{scientific}</i>. {date ? `It was on ${date}` : null}
+	<!-- <br />
+	{
+		images
+			? images.map((image) => (
+					<img
+						src={image.src}
+						alt=""
+						style={`aspect-ratio: ${image.aspectRatio}`}
+					/>
+			  ))
+			: null
+	} -->
+</li>

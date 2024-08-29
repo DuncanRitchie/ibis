@@ -1,12 +1,69 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Bird from '../components/Bird.astro'
+
+import { birds } from '../data/birds';
 ---
 
-<Layout title="">
+<Layout
+	title="Index of Birds I've Sensed"
+	description="List of avian species Duncan Ritchie has seen or heard"
+	showIbisHomeLink={false}
+>
 	<main>
-		
+		<h1>My Index of Birds I’ve Sensed (Ibis)</h1>		
+
+		<p>
+			When I was about thirteen, I made a list of all the avian species I had encountered in the wild.
+			I called it the Ibis (or I.B.I.S. as I styled acronyms at the time) — the Index of Birds I’ve Seen.
+			(The verb changed to “Sensed” after I heard cuckoos and tawny owls calling and wanted to include them.)
+		</p>
+		<p>
+			I put the list online, as an accompaniment with <a href="https://www.duncanritchie.co.uk/childhood-blog">my Childhood Blog</a> (which wasn’t called that at the time).
+			Some of the articles there alluded to the Ibis.
+			I then went on holiday and saw a lot more birds, so the list was soon out-of-date.
+			A few years later, I took my entire site offline.
+		</p>
+		<p>
+			Fast-forward to 2024, and I was <a href="https://www.duncanritchie.co.uk/blog/childhood-blog">looking back at my Childhood Blog</a>, and I decided to republish both the blog and the Ibis, using newer web technologies and visual styles that match other things I’ve made.
+		</p>
+		<p>
+			I have not updated the Ibis since 2012, and the list is limited to birds I’ve seen (or heard) in Britain.
+			The birds are sorted by category, but it’s not particularly scientific.
+		</p>
+		<p>
+			Are ibises themselves on the Ibis?
+			No.
+			They might appear if I add birds from foreign holidays.
+		</p>
+
+		<h2>The list</h2>
+		<ol>
+			{birds.map((bird) => (
+				<Bird
+					name={bird.name}
+					scientific={bird.genus + ' ' + bird.species}
+					images={bird.images}
+				/>
+			))}
+		</ol>
+
+		<h2>Birds I could add</h2>
+		<h3>
+			In Britain
+		</h3>
+		<p>
+			Song Thrush, Raven, Stonechat, Pochard, Shelduck, Mandarin, Red-breasted Merganser, Goosander, Scottish Crossbill, Great-crested Grebe, Great Black-backed Gull, Kittiwake, Fulmar, Shag, Ringed Plover, Meadow Pipit, Twite, Snow Bunting, Stock Dove, Willow Warbler, Chiffchaff, Blackcap, Swift, Goldcrest, House Martin, Sand Martin, Little Egret, Coal Tit, Treecreeper, Nuthatch, Dunlin, Teal, Arctic Tern, Sandwich Tern, Razorbill, Puffin, Bullfinch, Lesser Redpoll, Fieldfare, Great Skua, Green Woodpecker, Red-legged Partridge, Snipe, Peregrine Falcon, Red Grouse, Ring-necked Parakeet, Skylark, Turnstone
+		</p>
+		<h3>
+			In Europe
+		</h3>
+		<p>
+			Siberian Jay (Finland), Azure-winged Magpie (Portugal), Hoopoe (Portugal)
+		</p>
+		<h3>Outside Europe</h3>
+		<p>
+			Probably several species, including bee-eaters, ibises, sanderling…
+		</p>
 	</main>
 </Layout>
-
-<style>
-</style>

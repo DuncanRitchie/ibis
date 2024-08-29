@@ -1,0 +1,35 @@
+---
+import { addLinkBase } from '../lib/lib';
+
+export interface Props {
+	showIbisHomeLink: boolean;
+}
+
+const { showIbisHomeLink } = Astro.props
+---
+
+<footer>
+	<ul style="justify-content: space-between;">
+		{
+			showIbisHomeLink && (
+				<li>
+					<a href={addLinkBase()}>
+						Ibis home
+					</a>
+				</li>
+			)
+		}
+
+		<li>
+			<a href="https://github.com/DuncanRitchie/ibis">
+				See the code
+			</a>
+		</li>
+		
+		<li>
+			<a href="https://www.duncanritchie.co.uk/">
+				By Duncan Ritchie
+			</a>
+		</li>
+	</ul>
+</footer>
