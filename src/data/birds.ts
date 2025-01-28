@@ -1,3 +1,5 @@
+const regexForDeletingFlickrEmbedCode = `(<a data-flickr-embed="true" href="[^"]+" title="[^"]+"><img src=")|(" width="[^"]+" height="[^"]+" alt="[^"]+"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>)`
+
 export const birds = [
 	{
 		name: 'Buzzard',
@@ -282,9 +284,13 @@ export const birds = [
 		subCategory: 'Tits & Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/1796/43265599034_ecb581c525_n.jpg',
+				aspectRatio: '4/3',
 			},
+			{
+				src: 'https://live.staticflickr.com/4098/4771314647_6349023e43_n.jpg',
+				aspectRatio: '4/3',
+			}
 		],
 		firstSighting: "before 2014",
 	},
@@ -296,8 +302,8 @@ export const birds = [
 		subCategory: 'Tits & Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/49505988457_b9d0f1c0f8_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -310,8 +316,8 @@ export const birds = [
 		subCategory: 'Tits & Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/51056140797_7ea496b19f_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -324,8 +330,8 @@ export const birds = [
 		subCategory: 'Tits & Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/5096/5395831511_bcf4835ea3_n.jpg',
+				aspectRatio: '3/4',
 			},
 		],
 		firstSighting: "before 2014",
@@ -338,8 +344,16 @@ export const birds = [
 		subCategory: 'Tits & Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/4885/46560843931_97c4e1f3e4_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/470/32007019411_debb50534c_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/53974565927_06c54edd60_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -352,8 +366,12 @@ export const birds = [
 		subCategory: 'Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/5712/21304767125_c9a8b32665_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/952/40063978230_eb5c50ae24_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -366,8 +384,8 @@ export const birds = [
 		subCategory: 'Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/5829/21312890091_c2a217db0f_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -394,8 +412,12 @@ export const birds = [
 		subCategory: 'Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/7204/6870985699_f1972b87d5_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/614/21116849268_b8e32eb32c_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -408,8 +430,8 @@ export const birds = [
 		subCategory: 'Finches',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/7434/27864091565_d45481ff7b_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -422,8 +444,8 @@ export const birds = [
 		subCategory: 'Tits',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/7839/33251947708_f623348660_n.jpg',
+				aspectRatio: '1/1',
 			},
 		],
 		firstSighting: "before 2014",
@@ -436,8 +458,12 @@ export const birds = [
 		subCategory: 'Tits',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/5769/23460183750_bd9593ce22_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/597/20683676193_bfef998e12_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -450,8 +476,8 @@ export const birds = [
 		subCategory: 'Tits',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/1725/27584176417_fd2ba27532_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -464,8 +490,12 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/53741805030_6c07d8cfd8_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/50259269022_8e99e65c77_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -478,8 +508,12 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/49872161987_11f8fba9fa_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/1475/26594122836_f9f5082a9a_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -492,8 +526,8 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/53975770769_8473e78691_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -506,8 +540,8 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/50259269317_55180fc98d_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -520,8 +554,8 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/5663/30131227542_0d71813d65_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -534,8 +568,8 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/51385529429_fd18624bd4_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -548,8 +582,8 @@ export const birds = [
 		subCategory: 'Garden Misc.',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/7680/17079207548_2244899d8b_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -562,8 +596,8 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/1378/5165059136_68a02caec2_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -576,8 +610,16 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/48396010441_09abb4fdef_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/5257/29592679374_f3fa317fee_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/48396147372_367d2865c0_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -590,8 +632,8 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/2923/14105063357_61001fff3e_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -604,8 +646,16 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/49847018831_fd19ce5968_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/49847321957_12e168a95a_n.jpg',
+				aspectRatio: '4/5',
+			},
+			{
+				src: 'https://live.staticflickr.com/2881/34178944352_acd925abca_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -618,8 +668,12 @@ export const birds = [
 		subCategory: 'Garden Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/53730009415_d63521310c_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/4591/27339930169_5d1589a871_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -660,8 +714,20 @@ export const birds = [
 		subCategory: 'Waterfowl',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/53682998353_8ed9ce5af9_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/7309/11630896414_2e1bd1e0b4_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/2903/14278683708_cfee9d2b4f_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/51351084634_7c6f7e4ab6_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -674,8 +740,8 @@ export const birds = [
 		subCategory: 'Waterfowl',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/5137/5450970691_72ec3248bf_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -688,8 +754,8 @@ export const birds = [
 		subCategory: 'Waterfowl',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/51271318072_4d39db7f4e_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -702,8 +768,20 @@ export const birds = [
 		subCategory: 'Waterfowl',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/51351084364_6b1d5e8659_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/47981138718_fa90e4d825_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/49822220762_3c2ecf7d9c_n.jpg',
+				aspectRatio: '4/3'
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/50025782593_f0ddcae235_n.jpg',
+				aspectRatio: '1/1',
 			},
 		],
 		firstSighting: "before 2014",
@@ -716,8 +794,8 @@ export const birds = [
 		subCategory: 'Waterfowl',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/53061199327_8f55ded99b_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -730,8 +808,16 @@ export const birds = [
 		subCategory: 'Waterfowl',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/50225750268_6417f90406_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/50258420323_2601ee0bc7_n.jpg',
+				aspectRatio: '4402/2935',
+			},
+			{
+				src: 'https://live.staticflickr.com/4101/4786466620_e60cf41a06_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -744,8 +830,12 @@ export const birds = [
 		subCategory: 'Waterfowl',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/50412472523_63aa51bc31_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/2688/4431153173_af59c92461_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -758,8 +848,12 @@ export const birds = [
 		subCategory: 'Crakes',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/7331/12864263363_dc2ff9fe1d_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/7340/27448894643_a8c432e331_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -772,8 +866,12 @@ export const birds = [
 		subCategory: 'Crakes',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/7901/32174561957_f94960be10_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/53514854273_45baf1cb17_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -786,8 +884,12 @@ export const birds = [
 		subCategory: 'River Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/50804768426_8342176311_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/52785655984_baf53044a2_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -800,8 +902,12 @@ export const birds = [
 		subCategory: 'River Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/4679/25251837158_2c71e69f42_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/1732/42403869612_0e1da21ab1_n.jpg',
+				aspectRatio: '1/1',
 			},
 		],
 		firstSighting: "before 2014",
@@ -814,8 +920,8 @@ export const birds = [
 		subCategory: 'River Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/53912405323_b400a6fd68_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -828,8 +934,20 @@ export const birds = [
 		subCategory: 'River Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/7040/26820721770_c10c7b604b_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/4435/36015171110_e779672706_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/1741/41731248354_0af1e4b4cb_n.jpg',
+				aspectRatio: '3/4',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/48088160748_309709a09a_n.jpg',
+				aspectRatio: '1/1',
 			},
 		],
 		firstSighting: "before 2014",
@@ -842,8 +960,16 @@ export const birds = [
 		subCategory: 'River Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/53975391573_9974bf0423_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/65535/53978113476_c9eee1cc16_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/7906/45983985345_32deeb7a10_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -856,8 +982,16 @@ export const birds = [
 		subCategory: 'Gulls',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/1773/42951360131_4789ee222f_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/7858/39933745563_e7ab690200_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/865/40972450285_06c8fbc6ce_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -870,8 +1004,8 @@ export const birds = [
 		subCategory: 'Gulls',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/65535/51012717921_aa47d16893_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -884,8 +1018,12 @@ export const birds = [
 		subCategory: 'Gulls',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/1825/43442078282_9e1922dc07_n.jpg',
+				aspectRatio: '4896/3264',
+			},
+			{
+				src: 'https://live.staticflickr.com/5765/23645887812_369139065b_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -898,8 +1036,12 @@ export const birds = [
 		subCategory: 'Sea Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/8697/17188561422_ac4e1307d6_n.jpg',
+				aspectRatio: '4/3',
+			},
+			{
+				src: 'https://live.staticflickr.com/5348/17002684740_da73011488_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -912,8 +1054,8 @@ export const birds = [
 		subCategory: 'Sea Misc',
 		images: [
 			{
-				src: '',
-				aspectRatio: '',
+				src: 'https://live.staticflickr.com/842/41483265792_c7d81a635d_n.jpg',
+				aspectRatio: '4/3',
 			},
 		],
 		firstSighting: "before 2014",
@@ -1272,6 +1414,12 @@ export const birds = [
 		name: 'Snipe',
 		genus: 'Gallinago',
 		species: 'gallinago',
+		images: [
+			{
+				src: 'https://live.staticflickr.com/8338/29758967321_0f4b140b56_n.jpg',
+				aspectRatio: '4/3'
+			}
+		]
 	},
 	{
 		name: 'Peregrine Falcon',
@@ -1297,5 +1445,16 @@ export const birds = [
 		name: 'Turnstone',
 		genus: 'Arenaria',
 		species: 'interpres',
+	},
+	{
+		name: 'Barnacle Goose',
+		genus: 'Branta',
+		species: 'leucopsis',
+		images: [
+			{
+				src: 'https://live.staticflickr.com/7340/10361567245_5bc29d2260_n.jpg',
+				aspectRatio: '4/3'
+			}
+		]
 	},
 ]
