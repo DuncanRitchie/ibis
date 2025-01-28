@@ -1058,4 +1058,244 @@ export const birds = [
 		],
 		firstSighting: "before 2014",
 	},
+	{
+		name: 'Song Thrush',
+		genus: 'Turdus',
+		species: 'philomelos',
+	},
+	{
+		name: 'Raven',
+		genus: 'Corvus',
+		species: 'corax',
+	},
+	{
+		name: 'Stonechat',
+		genus: 'Saxicola',
+		species: 'rubicola',
+	},
+	{
+		name: 'Pochard',
+		genus: 'Aythya',
+		species: 'ferina',
+	},
+	{
+		name: 'Shelduck',
+		genus: 'Tadorna',
+		species: 'tadorna',
+	},
+	{
+		name: 'Mandarin',
+		genus: 'Aix',
+		species: 'galericulata',
+	},
+	{
+		name: 'Red-breasted Merganser',
+		genus: 'Mergus',
+		species: 'serrator',
+	},
+	{
+		name: 'Goosander',
+		genus: 'Mergus',
+		species: 'merganser',
+	},
+	{
+		name: 'Scottish Crossbill',
+		genus: 'Loxia',
+		species: 'scotica',
+	},
+	{
+		name: 'Great Crested Grebe',
+		genus: 'Podiceps',
+		species: 'cristatus',
+	},
+	{
+		name: 'Great Black-backed Gull',
+		genus: 'Larus',
+		species: 'marinus',
+	},
+	{
+		name: 'Kittiwake',
+		genus: 'Rissa',
+		species: 'tridactyla',
+	},
+	{
+		name: 'Fulmar',
+		genus: 'Fulmarus',
+		species: 'glacialis',
+	},
+	{
+		name: 'Shag',
+		genus: 'Gulosus',
+		species: 'aristotelis',
+	},
+	{
+		name: 'Ringed Plover',
+		genus: 'Charadrius',
+		species: 'hiaticula',
+	},
+	{
+		name: 'Meadow Pipit',
+		genus: 'Anthus',
+		species: 'pratensis',
+	},
+	{
+		name: 'Twite',
+		genus: 'Linaris',
+		species: 'flavirostris',
+	},
+	{
+		name: 'Snow Bunting',
+		genus: 'Plectrophenax',
+		species: 'nivalis',
+	},
+	{
+		name: 'Stock Dove',
+		genus: 'Columba',
+		species: 'oenas',
+	},
+	{
+		name: 'Willow Warbler',
+		genus: 'Phylloscopus',
+		species: 'trochilus',
+	},
+	{
+		name: 'Chiffchaff',
+		genus: 'Phylloscopus',
+		species: 'collybita',
+	},
+	{
+		name: 'Blackcap',
+		genus: 'Sylvia',
+		species: 'atricapilla',
+	},
+	{
+		name: 'Swift',
+		genus: 'Apus',
+		species: 'apus',
+	},
+	{
+		name: 'Goldcrest',
+		genus: 'Regulus',
+		species: 'regulus',
+	},
+	{
+		name: 'House Martin',
+		genus: 'Delichon',
+		species: 'urbicum',
+	},
+	{
+		name: 'Sand Martin',
+		genus: 'Riparia',
+		species: 'riparia',
+	},
+	{
+		name: 'Little Egret',
+		genus: 'Egretta',
+		species: 'garzetta',
+	},
+	{
+		name: 'Coal Tit',
+		genus: 'Periparus',
+		species: 'ater',
+	},
+	{
+		name: 'Treecreeper',
+		genus: 'Certhia',
+		species: 'familiaris',
+	},
+	{
+		name: 'Nuthatch',
+		genus: 'Sitta',
+		species: 'europaea',
+	},
+	{
+		name: 'Dunlin',
+		genus: 'Calidris',
+		species: 'alpina',
+	},
+	{
+		name: 'Teal',
+		genus: 'Anas',
+		species: 'crecca',
+	},
+	{
+		name: 'Arctic Tern',
+		genus: 'Sterna',
+		species: 'paradisaea',
+	},
+	{
+		name: 'Sandwich Tern',
+		genus: 'Thalasseus',
+		species: 'sandvicensis',
+	},
+	{
+		name: 'Razorbill',
+		genus: 'Alca',
+		species: 'torda',
+	},
+	{
+		name: 'Puffin',
+		genus: 'Fratercula',
+		species: 'arctica',
+	},
+	{
+		name: 'Bullfinch',
+		genus: 'Pyrrhula',
+		species: 'pyrrhula',
+	},
+	{
+		name: 'Lesser Redpoll',
+		genus: 'Acanthis',
+		species: 'flammea',
+	},
+	{
+		name: 'Fieldfare',
+		genus: 'Turdus',
+		species: 'pilaris',
+	},
+	{
+		name: 'Great Skua',
+		genus: 'Stercorarius',
+		species: 'skua',
+	},
+	{
+		name: 'Green Woodpecker',
+		genus: 'Picus',
+		species: 'viridis',
+	},
+	{
+		name: 'Red-legged Partridge',
+		genus: 'Alectoris',
+		species: 'rufa',
+	},
+	{
+		name: 'Snipe',
+		genus: 'Gallinago',
+		species: 'gallinago',
+	},
+	{
+		name: 'Peregrine Falcon',
+		genus: 'Falco',
+		species: 'peregrinus',
+	},
+	{
+		name: 'Red Grouse',
+		genus: 'Lagopus',
+		species: 'scotica',
+	},
+	{
+		name: 'Ring-necked Parakeet',
+		genus: 'Psittacula',
+		species: 'krameri',
+	},
+	{
+		name: 'Skylark',
+		genus: 'Alauda',
+		species: 'arvensis',
+	},
+	{
+		name: 'Turnstone',
+		genus: 'Arenaria',
+		species: 'interpres',
+	},
 ]
