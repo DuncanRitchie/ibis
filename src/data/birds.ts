@@ -15,6 +15,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Sparrowhawk',
@@ -32,6 +33,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Kestrel',
@@ -45,6 +47,7 @@ export const birds = [
 				aspectRatio: '3/4',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Osprey',
@@ -58,6 +61,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Golden Eagle',
@@ -71,6 +75,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Tawny Owl',
@@ -79,6 +84,7 @@ export const birds = [
 		category: 'Birds of Prey',
 		subCategory: 'Raptors',
 		images: [],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Barn Owl',
@@ -92,6 +98,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Hen Harrier',
@@ -109,6 +116,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Red Kite',
@@ -122,6 +130,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Carrion Crow',
@@ -135,6 +144,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Hooded Crow',
@@ -148,6 +158,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Rook',
@@ -161,6 +172,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Jackdaw',
@@ -178,6 +190,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Magpie',
@@ -195,6 +208,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Jay',
@@ -208,6 +222,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Rock Dove',
@@ -229,6 +244,7 @@ export const birds = [
 				aspectRatio: '1/1',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Wood-pigeon',
@@ -242,6 +258,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Collared Dove',
@@ -255,6 +272,7 @@ export const birds = [
 				aspectRatio: '4/3',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Blackbird',
@@ -268,6 +286,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Mistle-thrush',
@@ -281,6 +300,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Redwing',
@@ -294,6 +314,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Redstart',
@@ -307,6 +328,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Robin',
@@ -320,6 +342,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Chaffinch',
@@ -333,6 +356,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Goldfinch',
@@ -346,6 +370,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Greenfinch',
@@ -359,6 +384,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Siskin',
@@ -372,6 +398,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Linnet',
@@ -385,6 +412,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Long-tailed Tit',
@@ -398,6 +426,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Blue Tit',
@@ -411,6 +440,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Great Tit',
@@ -424,6 +454,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'House Sparrow',
@@ -437,6 +468,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Wren',
@@ -450,6 +482,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Dunnock',
@@ -463,6 +496,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Swallow',
@@ -476,6 +510,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Great Spotted Woodpecker',
@@ -489,6 +524,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Starling',
@@ -502,6 +538,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Rock Pipit',
@@ -515,6 +552,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Corn Bunting',
@@ -528,6 +566,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Reed Bunting',
@@ -541,6 +580,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Pied Wagtail',
@@ -554,6 +594,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Grey Wagtail',
@@ -567,6 +608,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Pheasant',
@@ -580,6 +622,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Cuckoo',
@@ -593,6 +636,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Waxwing',
@@ -606,6 +650,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Mallard',
@@ -619,6 +664,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Goldeneye',
@@ -632,6 +678,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Tufted Duck',
@@ -645,6 +692,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Greylag Goose',
@@ -658,6 +706,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Pink-footed Goose',
@@ -671,6 +720,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Canada Goose',
@@ -684,6 +734,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Mute Swan',
@@ -697,6 +748,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Coot',
@@ -710,6 +762,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Moorhen',
@@ -723,6 +776,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Kingfisher',
@@ -736,6 +790,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Dipper',
@@ -749,6 +804,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Little Grebe',
@@ -762,6 +818,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Grey Heron',
@@ -775,6 +832,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Cormorant',
@@ -788,6 +846,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Herring Gull',
@@ -801,6 +860,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Lesser Black-backed Gull',
@@ -814,6 +874,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Black-headed Gull',
@@ -827,6 +888,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Eider',
@@ -840,6 +902,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Gannet',
@@ -853,6 +916,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Oystercatcher',
@@ -866,6 +930,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Lapwing',
@@ -879,6 +944,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Guillemot',
@@ -892,6 +958,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Black Guillemot',
@@ -905,6 +972,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Common Sandpiper',
@@ -918,6 +986,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Curlew',
@@ -931,6 +1000,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Redshank',
@@ -944,6 +1014,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Knot',
@@ -957,6 +1028,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Dotterel',
@@ -970,6 +1042,7 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 	{
 		name: 'Wheatear',
@@ -983,5 +1056,6 @@ export const birds = [
 				aspectRatio: '',
 			},
 		],
+		firstSighting: "before 2014",
 	},
 ]
