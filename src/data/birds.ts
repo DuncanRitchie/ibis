@@ -178,7 +178,7 @@ export const birds = [
 	},
 	{
 		name: 'Jackdaw',
-		genus: 'Corvus',
+		genus: 'Coloeus',
 		species: 'monedula',
 		category: 'Corvids',
 		subCategory: 'Crows',
