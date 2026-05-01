@@ -1763,4 +1763,15 @@ export const birds = [
 			}
 		]
 	},
+	{
+		name: 'Whitethroat',
+		genus: 'Curruca',
+		species: 'communis',
+		images: [
+			{
+				src: 'https://live.staticflickr.com/65535/48243381341_c0f68fd80c_c.jpg',
+				aspectRatio: '4/3',
+			},
+		],
+	},
 ]
